@@ -52,7 +52,6 @@ public class Byte_Streams {
                 out1.write(c1);
                 System.out.print(c1 + "-");
             }
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
