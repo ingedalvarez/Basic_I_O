@@ -46,7 +46,8 @@ public class Byte_Streams {
         int c1;
 
 
-        try (FileInputStream in1 = new FileInputStream("xanadu.txt"); FileOutputStream out1 = new FileOutputStream("outagain2.txt")) {
+        try (FileInputStream in1 = new FileInputStream("xanadu.txt");
+             FileOutputStream out1 = new FileOutputStream("outagain2.txt")) {
 
             while ((c1 = in1.read()) != -1) {
                 out1.write(c1);
