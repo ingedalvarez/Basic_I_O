@@ -9,7 +9,7 @@ public class Buffered_Streams {
 
 
         try(BufferedReader in = new BufferedReader(new FileReader("xanadu.txt"));
-            BufferedWriter out = new BufferedWriter(new FileWriter("character_output_bufferedReader.txt"));) {
+            BufferedWriter out = new BufferedWriter(new FileWriter("datas/character_output_bufferedReader.txt"));) {
             while((c=in.read())!=-1){
                 out.write(c);
                 System.out.format("%d ", c);
