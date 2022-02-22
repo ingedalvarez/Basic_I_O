@@ -5,7 +5,7 @@ import java.io.*;
 public class Data_Stream {
     public static void main(String[] args) {
 
-        final String dataFile = "invoice";
+        final String dataFile = "datas/invoice";
         int cant;
         double price;
         String prod;
