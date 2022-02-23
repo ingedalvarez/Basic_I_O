@@ -81,12 +81,12 @@ class Invoice implements Serializable{
 
     @Override
     public String toString() {
-        return "Invoice{" +
-                "prod='" + prod + '\'' +
-                ", cant=" + cant +
-                ", price=" + price +
-                ", total=" + total +
-                ", date=" + date +
+        return "Invoice{ " +
+                "prod= '" + prod + '\'' +
+                ", cant= " + cant +
+                ", price= " + price +
+                ", total= " + total +
+                ", date= " + date +
                 '}';
     }
 }
